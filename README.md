@@ -1,4 +1,5 @@
 ```
+pip install -r requirements.txt
 git clone git@github.com:spero2/environment.git
 cd environment
 ./setup.sh
