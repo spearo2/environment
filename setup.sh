@@ -30,8 +30,8 @@ ln -s -f $(pwd)/nvim ~/.config/nvim
 ln -s -f $(pwd)/.pylintrc ~/.pylintrc
 
 chmod +x reserve.sh
-echo "alias resp='$(pwd)/reserve.sh '" >> ~/.zshrc
+echo "alias resp='$(pwd)/reserve.sh'" >> ~/.zshrc
 chmod +x mail.py
-echo "alias pmail='$(pwd)/mail.py '" >> ~/.zshrc
+echo "alias pmail='$(pwd)/mail.py'" >> ~/.zshrc
 # python support for neovim
 pip3 install pynvim

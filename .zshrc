@@ -120,7 +120,6 @@ eval "$(pyenv init -)"
 
 alias vi='nvim'
 alias sr='screen -D -r main'
-alias ta='tmux attach -t main'
 alias python='python3'
 alias eoe='eval $(opam env)'
 
@@ -151,7 +150,7 @@ eval `opam config env`
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # docker alias
-alias dr='docker run -it -d '
+alias dr='docker run -it -d'
 alias drp='docker run -it -d --privileged'
 alias dl='docker ps'
 alias dll='docker ps -a'
@@ -172,21 +171,15 @@ alias ee='eval $(opam env)'
 
 # tmux alias
 alias t='tmux'
-alias ta='tmux attach-session -t '
-alias tk='tmux kill-session -t '
+alias ta='tmux attach-session -t'
+alias tk='tmux kill-session -t'
 alias tl='tmux ls'
 alias taa='tmux attach'
 alias e='exit'
-alias tn='tmux rename-session -t '
+alias tn='tmux rename-session -t'
 
 # experiment alias
-alias rep='$(pwd)/reserve.sh '
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias resp='$HOME/reserve.sh'
-alias resp='reserve.sh'
-alias resp='/home/changgong/environment/reserve.sh'
-alias resp='/home/changgong/environment/reserve.sh'
-alias resp='/home/changgong/environment/reserve.sh'
